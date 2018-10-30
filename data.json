@@ -51,6 +51,27 @@
 	],
 	"Mannerisms": [
 		"Anecdotes", "Breathy", "Chuckles", "Clipped", "Cryptic", "Deep voice"
+	], 
+	"Methods": [
+		"Alchemy", "Blackmail", "Bluster", "Bribery", "Bullying", "Bureaucracy"
+	],
+	"Secrets": [
+		"Addicted", "Artificial", "Assassin", "Bankrupt", "Beholden", "Counterspy"
+	],
+	"Reputations": [
+		"Ambitious", "Authoritative", "Boor", "Borrower", "Celebrity", "Charitable"
+	],
+	"Relationships": [
+		"Adviser", "Blackmailer", "Business partner", "Business rival", "Buyer", "Captor"
+	],
+	"Factions": [
+		"Art movement", "Beggar's guild", "Black market", "Brotherhood", "City guard", "Conspiracy"
+	],
+	"FactionTraits": [
+		"Bankrupt", "Bureaucratic", "Charitable", "Confused", "Connected", "Corrupt"
+	],
+	"FactionGoals": [
+		"Advise leader", "Avoid detection", "Awaken being", "Collect artifacts", "Construct base", "Control faction"
 	],
 	
 	"Magic": {
