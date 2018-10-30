@@ -1,0 +1,76 @@
+{
+	"Characters": {
+		"FemaleNames": [
+			"Adelaide","Alma", "Barsaba", "Beatrix", "Bianca", "Cleopha"
+		],
+		"MaleNames": [
+			"Balthazar", "Basil", "Bertram", "Blaxton", "Chadwick", "Clovis"
+		],
+		"UpperClassSurnames": [
+			"Belvedere","Birthsea", "Calaver", "Carvolo", "De Rippe", "Droll"
+		],
+		"LowerClassSurnames": [
+			"Barrow", "Beetleman", "Berrycloth", "Birdwhistle", "Bobich", "Chips"
+		]
+	},
+	"CivilizedJobs": [
+		"Acolyte", "Actor", "Apothecary", "Baker", "Barber", "Blacksmith"
+	],
+	"Assets": [
+		"Authority", "Avoids detection", "Calls in favors", "Charming", "Cooks the books", "Erases evidence"
+	],
+	"Liabilities": [
+		"Addiction", "Alcoholic", "Corrupt ally", "Coward", "Decadent", "Forbidden love"
+	],
+	"Goals": [
+		"A better life", "Acceptance", "Acquire item", "Craft item", "Destroy faction", "Destroy item"
+	],
+	"Misfortunes": [
+		"Abandoned", "Addicted", "Arrested", "Blackmailed", "Burgled", "Challenged"
+	],
+	"Missions": [
+		"Apprehend", "Assassinate", "Blackmail", "Burgle", "Chart", "Convince"
+	],
+	"Items": [
+		"Animal Scent", "Bear Trap", "Bedroll", "Caltrops", "Chain (10ft)", "Chalk"
+	],
+	"Appearances": [
+		"Aquiline", "Atheletic", "Barrel-Chested", "Boney", "Brawny", "Brutish"
+	],
+	"PhysicalDetails": [
+		"Acid Scars", "Battle Scars", "Birthmark", "Braided Hair", "Brand Mark",  "Broken Nose"
+	],
+	"Backgrounds": [
+		"Alchemist", "Beggar-prince", "Blackmailer", "Bounty-hunter", "Chimney sweep", "Coin-clipper"
+	],
+	"Clothing": [
+		"Antique", "Battle-torn", "Bedraggled", "Blood-stained", "Ceremonial", "Dated"
+	],
+	"Personalities": [
+		"Bitter", "Brave", "Cautious", "Chipper", "Contrary", "Cowardly"
+	],
+	"Mannerisms": [
+		"Anecdotes", "Breathy", "Chuckles", "Clipped", "Cryptic", "Deep voice"
+	],
+	
+	"Magic": {
+		"PhysicalEffects": [
+			"Animating", "Attracting", "Binding", "Blossoming", "Consuming", "Creeping"
+		],
+		"PhysicalElements": [
+			"Acid", "Amber", "Bark", "Blood", "Bone", "Brine"
+		],
+		"PhysicalForms": [
+			"Altar", "Armor", "Arrow", "Beast", "Blade", "Cauldron"
+		],
+		"EtherialEffects": [
+			"Avenging", "Banishing", "Bewildering", "Blinding", "Charming", "Communicating"
+		],
+		"EtherialElements": [
+			"Ash", "Chaos", "Distortion", "Dream", "Dust", "Echo"
+		],
+		"EtherialForms": [
+			"Aura", "Beacon", "Beam", "Blast", "Blob", "Bolt"
+		]
+	}
+}
