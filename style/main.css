@@ -5,6 +5,7 @@ body {
 
 div.heading {
 	text-align: center;
+	text-decoration: underline;
 }
 
 h1 {

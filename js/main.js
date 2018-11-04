@@ -17,9 +17,9 @@ $( document ).ready(function() {
                         document.getElementById("last-name").innerHTML = value.LowerClassSurnames[randNum(0,size-1)];
                     }
                     break;
-                case "CivilizedJobs":
+                /*case "CivilizedJobs":
                     document.getElementById("job").innerHTML = value[randNum(0,size-1)];
-                    break;
+                    break;*/
                 case "Assets":
                     document.getElementById("assets").innerHTML = value[randNum(0,size-1)];
                     break;
