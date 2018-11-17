@@ -1,6 +1,10 @@
 $( document ).ready(function() {
+   makeCharacter();
+});
 
-    var size = 6;
+function makeCharacter() {
+ 
+    var size = 24;
 
     $.getJSON("data.json", function (data) {
         $.each(data, function (index, value) {
@@ -51,6 +55,10 @@ $( document ).ready(function() {
                     document.getElementById("mannerism").innerHTML = value[randNum(0,size-1)];
                     break;
                 case "Secrets":
+                    var selection = randNum(0, size-1);
+                    if (selection == 23) {
+                        document.getElementById("secrets").innerHTML = data.;
+                    }
                     document.getElementById("secrets").innerHTML = value[randNum(0,size-1)];
                     break;
                 case "Reputations":
@@ -63,7 +71,12 @@ $( document ).ready(function() {
                     document.getElementById("methods").innerHTML = value[randNum(0,size-1)];
                     break;
                 case "Factions":
-                    document.getElementById("faction-type").innerHTML = value[randNum(0,size-1)];
+                    var selection = randNum(0,size-1);
+                    if (selection == 22) {
+                        document.getElementById("faction-type").innerHTML = data.Personalities[randNum(0, size-1)];
+                    } else {
+                       document.getElementById("faction-type").innerHTML = value[randNum(0,size-1)]; 
+                    }
                     break;
                 case "FactionTraits":
                     document.getElementById("faction-traits").innerHTML = value[randNum(0,size-1)];
@@ -74,7 +87,7 @@ $( document ).ready(function() {
             }
          });
     });
-});
+}
 
 function randNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;

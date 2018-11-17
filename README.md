@@ -10,6 +10,6 @@ Based heavily off of the Character Generator created by ScottMaclure (https://gi
 When creating a new faction generate many NPCs and link them together through relationships.  You can also use this generator for PCs  All that needs it be added is attributes and Items specific to the system.  
 
 ## TODO
-- Add more options for each value (currently only 6 possible choices for each value)
+- Add more options for each value (currently only 24 possible choices for each value)
 - Add relationships to the values
 - Make a system to automatically link NPCs into groups/factions
