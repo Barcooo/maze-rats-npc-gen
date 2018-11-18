@@ -31,8 +31,18 @@ function makeCharacter() {
                     document.getElementById("liabilities").innerHTML = value[randNum(0,size-1)];
                     break;  
                 case "Goals":
-                    document.getElementById("goals").innerHTML = value[randNum(0,size-1)];
-                    break; 
+                    var selection = randNum(0, size-1);
+                    if (selection == 2) {
+                        document.getElementById("goals").innerHTML = "Aquire " + data.Items[randNum(0, size - 1)];
+                    } else if (selection == 3) {
+                        document.getElementById("goals").innerHTML = "Craft " + data.Items[randNum(0, size - 1)];
+                    } else if (selection == 5) {
+                        document.getElementById("goals").innerHTML = "Destroy " + data.Items[randNum(0, size - 1)];
+                    }
+                    else {
+                        document.getElementById("goals").innerHTML = value[selection];
+                    }
+                    break;
                 case "Misfortunes":
                     document.getElementById("misfortunes").innerHTML = value[randNum(0,size-1)];
                     break;
@@ -56,10 +66,11 @@ function makeCharacter() {
                     break;
                 case "Secrets":
                     var selection = randNum(0, size-1);
-                    if (selection == 23) {
-                        document.getElementById("secrets").innerHTML = data.;
+                    if (selection == 22) {
+                        document.getElementById("secrets").innerHTML = data.Misfortunes[randNum(0, size - 1)];
+                    } else {
+                        document.getElementById("secrets").innerHTML = value[selection];
                     }
-                    document.getElementById("secrets").innerHTML = value[randNum(0,size-1)];
                     break;
                 case "Reputations":
                     document.getElementById("reputations").innerHTML = value[randNum(0,size-1)];
@@ -72,10 +83,10 @@ function makeCharacter() {
                     break;
                 case "Factions":
                     var selection = randNum(0,size-1);
-                    if (selection == 22) {
+                    if (selection == 21) {
                         document.getElementById("faction-type").innerHTML = data.Personalities[randNum(0, size-1)];
                     } else {
-                       document.getElementById("faction-type").innerHTML = value[randNum(0,size-1)]; 
+                       document.getElementById("faction-type").innerHTML = value[selection]; 
                     }
                     break;
                 case "FactionTraits":

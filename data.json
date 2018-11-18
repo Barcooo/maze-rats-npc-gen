@@ -23,7 +23,7 @@
 		"Addiction", "Alcoholic", "Corrupt ally", "Coward", "Decadent", "Forbidden love", "Gambler", "Glutton", "Greedy", "Heretic", "Huge debts", "Imposter", "Insanity", "Jealous", "Leaves evidence", "Many enemies", "Misinformed", "Money trail", "Narcissist", "Needs medicine", "OCD", "Paranoid", "Partyer", "Poor equipment"
 	],
 	"Goals": [
-		"A better life", "Acceptance", "Acquire item", "Craft item", "Destroy faction", "Destroy item", "Enlightenment", "Fame", "Find faction", "Freedom", "Glory", "Impress NPC", "Infamy", "Infiltrate faction", "Justice", "Kidnap NPC", "Lead faction", "Learning", "Locate NPC", "Love", "Mastery", "Power", "Reach location", "Rescue NPC"
+		"A better life", "Acceptance", "Acquire item", "Craft item", "Destroy a faction", "Destroy item", "Enlightenment", "Fame", "Find a faction", "Freedom", "Glory", "Impress an NPC", "Infamy", "Infiltrate a faction", "Justice", "Kidnap an NPC", "Lead a faction", "Learning", "Locate an NPC", "Love", "Mastery", "Power", "Reach a location", "Rescue an NPC"
 	],
 	"Misfortunes": [
 		"Abandoned", "Addicted", "Arrested", "Blackmailed", "Burgled", "Challenged", "Condemned", "Crippled", "Cursed", "Defrauded", "Demoted", "Depressed", "Discredited", "Dismissed", "Disowned", "Exiled", "Famished", "Forgotten", "Framed", "Haunted", "Humiliated", "Impoverished", "Kidnapped", "Lost"
@@ -67,7 +67,9 @@
 	"FactionGoals": [
 		"Advise leader", "Avoid detection", "Awaken being", "Collect artifacts", "Construct base", "Control faction", "Control politics", "Create artifact", "Create monster", "Defeat faction", "Defend borders", "Defend leader", "Destroy artifacts", "Destroy being", "Destroy villain", "Enforce law", "Enrich members", "Entertain", "Exchange goods", "Hear rumors", "Indulge tastes", "Infiltrate faction", "Map the wild", "Overthrow order"
 	],
-	
+	"Items": [
+		"Brooch", "Carved figurine", "Deck of cards", "Foreign coin", "Glass eye", "Hourglass", "Human tooth", "Hunting horn", "Numbered key", "Scroll", "Sealed letter", "Skull", "Wine bottle", "Bracelet", "Eyepatch", "Necklace", "Battleaxe", "Crossbow", "Staff", "Warhammer", "Book on Alchemy", "Book on Divination", "Journal", "Book on State secrets", "Book on Treasures", "Potion"
+	],
 	"Magic": {
 		"PhysicalEffects": [
 			"Animating", "Attracting", "Binding", "Blossoming", "Consuming", "Creeping"
