@@ -1,6 +1,10 @@
 $( document ).ready(function() {
+   makeCharacter();
+});
 
-    var size = 6;
+function makeCharacter() {
+ 
+    var size = 24;
 
     $.getJSON("data.json", function (data) {
         $.each(data, function (index, value) {
@@ -27,8 +31,18 @@ $( document ).ready(function() {
                     document.getElementById("liabilities").innerHTML = value[randNum(0,size-1)];
                     break;  
                 case "Goals":
-                    document.getElementById("goals").innerHTML = value[randNum(0,size-1)];
-                    break; 
+                    var selection = randNum(0, size-1);
+                    if (selection == 2) {
+                        document.getElementById("goals").innerHTML = "Aquire " + data.Items[randNum(0, size - 1)];
+                    } else if (selection == 3) {
+                        document.getElementById("goals").innerHTML = "Craft " + data.Items[randNum(0, size - 1)];
+                    } else if (selection == 5) {
+                        document.getElementById("goals").innerHTML = "Destroy " + data.Items[randNum(0, size - 1)];
+                    }
+                    else {
+                        document.getElementById("goals").innerHTML = value[selection];
+                    }
+                    break;
                 case "Misfortunes":
                     document.getElementById("misfortunes").innerHTML = value[randNum(0,size-1)];
                     break;
@@ -51,7 +65,12 @@ $( document ).ready(function() {
                     document.getElementById("mannerism").innerHTML = value[randNum(0,size-1)];
                     break;
                 case "Secrets":
-                    document.getElementById("secrets").innerHTML = value[randNum(0,size-1)];
+                    var selection = randNum(0, size-1);
+                    if (selection == 22) {
+                        document.getElementById("secrets").innerHTML = data.Misfortunes[randNum(0, size - 1)];
+                    } else {
+                        document.getElementById("secrets").innerHTML = value[selection];
+                    }
                     break;
                 case "Reputations":
                     document.getElementById("reputations").innerHTML = value[randNum(0,size-1)];
@@ -63,7 +82,12 @@ $( document ).ready(function() {
                     document.getElementById("methods").innerHTML = value[randNum(0,size-1)];
                     break;
                 case "Factions":
-                    document.getElementById("faction-type").innerHTML = value[randNum(0,size-1)];
+                    var selection = randNum(0,size-1);
+                    if (selection == 21) {
+                        document.getElementById("faction-type").innerHTML = data.Personalities[randNum(0, size-1)];
+                    } else {
+                       document.getElementById("faction-type").innerHTML = value[selection]; 
+                    }
                     break;
                 case "FactionTraits":
                     document.getElementById("faction-traits").innerHTML = value[randNum(0,size-1)];
@@ -74,7 +98,7 @@ $( document ).ready(function() {
             }
          });
     });
-});
+}
 
 function randNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;

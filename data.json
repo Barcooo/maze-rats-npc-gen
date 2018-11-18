@@ -1,79 +1,75 @@
 {
 	"Characters": {
 		"FemaleNames": [
-			"Adelaide","Alma", "Barsaba", "Beatrix", "Bianca", "Cleopha"
+			"Adelaide","Alma", "Barsaba", "Beatrix", "Bianca", "Cleopha", "Clover", "Constance", "Damaris", "Daphne", "Demona", "Elsbeth", "Esme", "Fern", "Hester", "Hippolyta", "Jessamine", "Jilly", "Morgot", "Minerva", "Nerissa", "Odette", "Olga", "Orchid"
 		],
 		"MaleNames": [
-			"Balthazar", "Basil", "Bertram", "Blaxton", "Chadwick", "Clovis"
+			"Balthazar", "Basil", "Bertram", "Blaxton", "Chadwick", "Clovis", "Destrian", "Ellis", "Erasmus", "Faustus", "Finn", "Fitzhugh", "Florian", "Fox", "Godwin", "Hannibal", "Jasper", "Jiles", "Jules", "Leopold", "Merrick", "Mortimer", "Ogden", "Orion"
 		],
 		"UpperClassSurnames": [
-			"Belvedere","Birthsea", "Calaver", "Carvolo", "De Rippe", "Droll"
+			"Belvedere","Birthsea", "Calaver", "Carvolo", "De Rippe", "Droll", "Dunlow", "Edevane", "Erelong", "Febland", "Fernsby", "Fisk", "Gastrell", "Girdwood", "Gorgon", "Grimeson", "Gruger", "Hitheryon", "La Marque", "Malmora", "Miter", "Oblington", "Onymous", "Phillifent"
 		],
 		"LowerClassSurnames": [
-			"Barrow", "Beetleman", "Berrycloth", "Birdwhistle", "Bobich", "Chips"
+			"Barrow", "Beetleman", "Berrycloth", "Birdwhistle", "Bobich", "Chips", "Coffin", "Crumpling", "Culpepper", "Dankworth", "Digworthy", "Dreggs", "Gimble", "Graveworm", "Greelish", "Hardwick", "Hatman", "Hovel", "Knibbs", "Midnighter", "Needle", "Nethercoat", "Pestle", "Relish"
 		]
 	},
 	"CivilizedJobs": [
-		"Acolyte", "Actor", "Apothecary", "Baker", "Barber", "Blacksmith"
+		"Acolyte", "Actor", "Apothecary", "Baker", "Barber", "Blacksmith", "Brewer", "Bureaucrat", "Butcher", "Carpenter", "Clockmaker", "Courier", "Courtier", "Diplomat", "Fishmonger", "Guard", "Haberdasher", "Innkeeper", "Item-seller", "Jeweler", "Knight", "Locksmith", "Mason", "Miller"
 	],
 	"Assets": [
-		"Authority", "Avoids detection", "Calls in favors", "Charming", "Cooks the books", "Erases evidence"
+		"Authority", "Avoids detection", "Calls in favors", "Charming", "Cooks the books", "Erases evidence", "Excellent liar", "Extremely rich", "Faction-leader", "Faction-member", "Feared", "Fortified base", "Gorgeous", "Hears rumors", "Huge family", "Huge library", "Impersonator", "Interrogator", "Knows a guy", "Knows a way in", "Launders money", "Learned", "Local celebrity", "Local knowledge"
 	],
 	"Liabilities": [
-		"Addiction", "Alcoholic", "Corrupt ally", "Coward", "Decadent", "Forbidden love"
+		"Addiction", "Alcoholic", "Corrupt ally", "Coward", "Decadent", "Forbidden love", "Gambler", "Glutton", "Greedy", "Heretic", "Huge debts", "Imposter", "Insanity", "Jealous", "Leaves evidence", "Many enemies", "Misinformed", "Money trail", "Narcissist", "Needs medicine", "OCD", "Paranoid", "Partyer", "Poor equipment"
 	],
 	"Goals": [
-		"A better life", "Acceptance", "Acquire item", "Craft item", "Destroy faction", "Destroy item"
+		"A better life", "Acceptance", "Acquire item", "Craft item", "Destroy a faction", "Destroy item", "Enlightenment", "Fame", "Find a faction", "Freedom", "Glory", "Impress an NPC", "Infamy", "Infiltrate a faction", "Justice", "Kidnap an NPC", "Lead a faction", "Learning", "Locate an NPC", "Love", "Mastery", "Power", "Reach a location", "Rescue an NPC"
 	],
 	"Misfortunes": [
-		"Abandoned", "Addicted", "Arrested", "Blackmailed", "Burgled", "Challenged"
+		"Abandoned", "Addicted", "Arrested", "Blackmailed", "Burgled", "Challenged", "Condemned", "Crippled", "Cursed", "Defrauded", "Demoted", "Depressed", "Discredited", "Dismissed", "Disowned", "Exiled", "Famished", "Forgotten", "Framed", "Haunted", "Humiliated", "Impoverished", "Kidnapped", "Lost"
 	],
 	"Missions": [
-		"Apprehend", "Assassinate", "Blackmail", "Burgle", "Chart", "Convince"
-	],
-	"Items": [
-		"Animal Scent", "Bear Trap", "Bedroll", "Caltrops", "Chain (10ft)", "Chalk"
+		"Apprehend", "Assassinate", "Blackmail", "Burgle", "Chart", "Convince", "Deface", "Defraud", "Deliver", "Destroy", "Discredit", "Escort", "Exfiltrated", "Extort", "Follow", "Frame", "Impersonate", "Impress", "Infiltrate", "Interrogate", "Investigate", "Kidnap", "Locate", "Plant"
 	],
 	"Appearances": [
-		"Aquiline", "Atheletic", "Barrel-Chested", "Boney", "Brawny", "Brutish"
+		"Aquiline", "Atheletic", "Barrel-Chested", "Boney", "Brawny", "Brutish", "Bullnecked", "Chiseled", "Coltish", "Corpulent", "Craggy", "Delicate", "Furrowed", "Gaunt", "Gorgeous", "Grizzled", "Haggard", "Handsome", "Hideous", "Lanky", "Pudgy", "Ripped", "Rosy", "Scrawny"
 	],
 	"PhysicalDetails": [
-		"Acid Scars", "Battle Scars", "Birthmark", "Braided Hair", "Brand Mark",  "Broken Nose"
-	],
-	"Backgrounds": [
-		"Alchemist", "Beggar-prince", "Blackmailer", "Bounty-hunter", "Chimney sweep", "Coin-clipper"
+		"Acid Scars", "Battle Scars", "Birthmark", "Braided Hair", "Brand Mark",  "Broken Nose", "Bronze skinned", "Burn scars", "Bushy eyebrows", "Curly hair", "Dark skinned", "Dreadlocks", "Exotic accent", "Flogging scras", "Freckles", "Gold tooth", "Hoarse voice", "Huge beard", "Long hair", "Melodious voice", "Missing ear", "Missing teeth", "Mustache", "Muttonchops"
 	],
 	"Clothing": [
-		"Antique", "Battle-torn", "Bedraggled", "Blood-stained", "Ceremonial", "Dated"
+		"Antique", "Battle-torn", "Bedraggled", "Blood-stained", "Ceremonial", "Dated", "Decaying", "Eccentric", "Elegant", "Embroidered", "Exotic", "Fashionable", "Flamboyant", "Food-stained", "Formal", "Formal", "Frayed", "Frumpy", "Garish", "Grimy", "Haute couture", "Lacey", "Livery", "Mud-stained", "Ostentatious"
 	],
 	"Personalities": [
-		"Bitter", "Brave", "Cautious", "Chipper", "Contrary", "Cowardly"
+		"Bitter", "Brave", "Cautious", "Chipper", "Contrary", "Cowardly", "Cunning", "Driven", "Entitled", "Gregarious", "Grumpy", "Heartless", "Honor-bound", "Hotheaded", "Inquisitive", "Irascible", "Jolly", "Know-it-all", "Lazy", "Loyal", "Menancing", "Mopey", "Nervous", "Protective"
 	],
 	"Mannerisms": [
-		"Anecdotes", "Breathy", "Chuckles", "Clipped", "Cryptic", "Deep voice"
+		"Anecdotes", "Breathy", "Chuckles", "Clipped", "Cryptic", "Deep voice", "Drawl", "Enunciates", "Flowery speech", "Gravelly voice", "Highly formal", "Hypnotic", "Interrupts", "Laconic", "Laughs", "Long pauses", "Melodious", "Monotone", "Mumbles", "Narrates", "Overly casual", "Quaint saying", "Rambles", "Random facts"
 	], 
 	"Methods": [
-		"Alchemy", "Blackmail", "Bluster", "Bribery", "Bullying", "Bureaucracy"
+		"Alchemy", "Blackmail", "Bluster", "Bribery", "Bullying", "Bureaucracy", "Charm", "Commerce", "Cronies", "Debate", "Deceit", "Deduction", "Eloquence", "Espionage", "Fast-talking", "Favors", "Hard work", "Humor", "Investigation", "Legal maneuvers", "Manipulation", "Misdirection", "Money", "Nagging"
 	],
 	"Secrets": [
-		"Addicted", "Artificial", "Assassin", "Bankrupt", "Beholden", "Counterspy"
+		"Addicted", "Artificial", "Assassin", "Bankrupt", "Beholden", "Counterspy", "Cultist", "Demigod", "Evil lineage", "Exile", "Fence", "Fugitive", "Ghost", "Has a child", "Heretic", "High born", "Huge fortune", "Illusion", "Insurrectionist", "Low born", "Married", "Mind-controlled", "Misfortune", "Monster hunter"
 	],
 	"Reputations": [
-		"Ambitious", "Authoritative", "Boor", "Borrower", "Celebrity", "Charitable"
+		"Ambitious", "Authoritative", "Boor", "Borrower", "Celebrity", "Charitable", "Cheat", "Dangerous", "Entertainer", "Gossip", "Hardworking", "Holy", "Honest", "Hypochondriac", "Idiot", "Influential", "Layabout", "Leader", "Misanthrope", "Miser", "Neighborly", "Nutjob", "Obnoxious", "Overeducated"
 	],
 	"Relationships": [
-		"Adviser", "Blackmailer", "Business partner", "Business rival", "Buyer", "Captor"
+		"Adviser", "Blackmailer", "Business partner", "Business rival", "Buyer", "Captor", "Client", "Confidant", "Debtor", "Disciple", "Guardian", "Henchman", "Idol", "Informant", "Master", "Mentor", "Nemesis", "Offspring", "Parent", "Patron", "Political rival", "Prisoner", "Protege", "Quarry"
 	],
 	"Factions": [
-		"Art movement", "Beggar's guild", "Black market", "Brotherhood", "City guard", "Conspiracy"
+		"Art movement", "Beggar's guild", "Black market", "Brotherhood", "City guard", "Conspiracy", "Craft guild", "Crime family", "Crime ring", "Dark cult", "Explorer's club", "Free company", "Gourmand club", "Heist crew", "Heretical sect", "High council", "Hired killers", "Local militia", "National church", "Nobel house", "Outlander clan", "Outlaw gang", "Political party", "Religious order"
 	],
 	"FactionTraits": [
-		"Bankrupt", "Bureaucratic", "Charitable", "Confused", "Connected", "Corrupt"
+		"Bankrupt", "Bureaucratic", "Charitable", "Confused", "Connected", "Corrupt", "Decadent", "Decaying", "Delusional", "Divided", "Dwindling", "Efficient", "Esoteric", "Expanding", "Hunted", "Incompetent", "Incorruptible", "Insane", "Insular", "Manipulative", "Martial", "Personality", "Pious", "Popular"
 	],
 	"FactionGoals": [
-		"Advise leader", "Avoid detection", "Awaken being", "Collect artifacts", "Construct base", "Control faction"
+		"Advise leader", "Avoid detection", "Awaken being", "Collect artifacts", "Construct base", "Control faction", "Control politics", "Create artifact", "Create monster", "Defeat faction", "Defend borders", "Defend leader", "Destroy artifacts", "Destroy being", "Destroy villain", "Enforce law", "Enrich members", "Entertain", "Exchange goods", "Hear rumors", "Indulge tastes", "Infiltrate faction", "Map the wild", "Overthrow order"
 	],
-	
+	"Items": [
+		"Brooch", "Carved figurine", "Deck of cards", "Foreign coin", "Glass eye", "Hourglass", "Human tooth", "Hunting horn", "Numbered key", "Scroll", "Sealed letter", "Skull", "Wine bottle", "Bracelet", "Eyepatch", "Necklace", "Battleaxe", "Crossbow", "Staff", "Warhammer", "Book on Alchemy", "Book on Divination", "Journal", "Book on State secrets", "Book on Treasures", "Potion"
+	],
 	"Magic": {
 		"PhysicalEffects": [
 			"Animating", "Attracting", "Binding", "Blossoming", "Consuming", "Creeping"
