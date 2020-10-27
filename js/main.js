@@ -9,64 +9,64 @@ function makeCharacter() {
     $.getJSON("data.json", function (data) {
         $.each(data, function (index, value) {
             switch (index) {
-                case "Characters": 
-                    if (randNum(0,1) == 0) {
-                        document.getElementById("first-name").innerHTML = value.FemaleNames[randNum(0,size-1)];
+                case "Characters":
+                    if (randNum(0,1)) {
+                        document.getElementById("first-name").innerHTML = value.FemaleNames[randNum(0,Object.keys(value.FemaleNames).length-1)];
                     } else {
-                        document.getElementById("first-name").innerHTML = value.MaleNames[randNum(0,size-1)];
+                        document.getElementById("first-name").innerHTML = value.MaleNames[randNum(0,Object.keys(value.MaleNames).length-1)];
                     }
-                    if (randNum(0,1) == 0) {
-                        document.getElementById("last-name").innerHTML = value.UpperClassSurnames[randNum(0,size-1)];
+                    if (randNum(0,1)) {
+                        document.getElementById("last-name").innerHTML = value.UpperClassSurnames[randNum(0,Object.keys(value.UpperClassSurnames).length-1)];
                     } else {
-                        document.getElementById("last-name").innerHTML = value.LowerClassSurnames[randNum(0,size-1)];
+                        document.getElementById("last-name").innerHTML = value.LowerClassSurnames[randNum(0,Object.keys(value.LowerClassSurnames).length-1)];
                     }
                     break;
                 /*case "CivilizedJobs":
                     document.getElementById("job").innerHTML = value[randNum(0,size-1)];
                     break;*/
                 case "Assets":
-                    document.getElementById("assets").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("assets").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;
                 case "Liabilities":
-                    document.getElementById("liabilities").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("liabilities").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;  
                 case "Goals":
-                    var selection = randNum(0, size-1);
+                    var selection = randNum(0, Object.keys(value).length-1);
                     if (selection == 2) {
-                        document.getElementById("goals").innerHTML = "Aquire " + data.Items[randNum(0, size - 1)];
+                        document.getElementById("goals").innerHTML = "Aquire " + data.Items[randNum(0, Object.keys(value).length - 1)];
                     } else if (selection == 3) {
-                        document.getElementById("goals").innerHTML = "Craft " + data.Items[randNum(0, size - 1)];
+                        document.getElementById("goals").innerHTML = "Craft " + data.Items[randNum(0, Object.keys(value).length - 1)];
                     } else if (selection == 5) {
-                        document.getElementById("goals").innerHTML = "Destroy " + data.Items[randNum(0, size - 1)];
+                        document.getElementById("goals").innerHTML = "Destroy " + data.Items[randNum(0, Object.keys(value).length - 1)];
                     }
                     else {
                         document.getElementById("goals").innerHTML = value[selection];
                     }
                     break;
                 case "Misfortunes":
-                    document.getElementById("misfortunes").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("misfortunes").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;
                 case "Missions":
-                    document.getElementById("missions").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("missions").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;
                 case "Appearances":
-                    document.getElementById("appearance").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("appearance").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;
                 case "PhysicalDetails":
-                    document.getElementById("details").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("details").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;
                 case "Clothing":
-                    document.getElementById("clothing").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("clothing").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;
                 case "Personalities":
-                    document.getElementById("personality").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("personality").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;
                 case "Mannerisms":
-                    document.getElementById("mannerism").innerHTML = value[randNum(0,size-1)];
+                    document.getElementById("mannerism").innerHTML = value[randNum(0,Object.keys(value).length-1)];
                     break;
                 case "Secrets":
-                    var selection = randNum(0, size-1);
-                    if (selection == 22) {
+                    var selection = randNum(0, 1);
+                    if (selection) {
                         document.getElementById("secrets").innerHTML = data.Misfortunes[randNum(0, size - 1)];
                     } else {
                         document.getElementById("secrets").innerHTML = value[selection];
