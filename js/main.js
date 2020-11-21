@@ -103,3 +103,12 @@ function makeCharacter() {
 function randNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+function hideMore() {
+    var x = document.getElementById("more");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
